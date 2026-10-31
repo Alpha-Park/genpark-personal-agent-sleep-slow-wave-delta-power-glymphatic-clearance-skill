@@ -1,0 +1,27 @@
+{
+  "name": "genpark-personal-agent-sleep-slow-wave-delta-power-glymphatic-clearance-skill",
+  "version": "1.0.0",
+  "description": "Polysomnography EEG slow-wave activity (SWA) delta band power density and nocturnal glymphatic metabolite clearance auditor.",
+  "category": "personal_agent",
+  "author": "GenPark AI",
+  "website": "https://www.genpark.ai",
+  "linkedin": "https://www.linkedin.com/company/92955550",
+  "main": "skills.py",
+  "tools": [
+    {
+      "name": "evaluate_sleep_slow_wave_glymphatic_clearance",
+      "description": "Polysomnography EEG slow-wave activity (SWA) delta band power density and nocturnal glymphatic metabolite clearance auditor.",
+      "sample_input": {
+        "n3_duration_minutes": 95,
+        "total_sleep_minutes": 460,
+        "delta_power_uV2_per_cycle": [
+          115.0,
+          92.0,
+          78.0,
+          60.0
+        ],
+        "sleep_efficiency_percent": 91.5
+      }
+    }
+  ]
+}
